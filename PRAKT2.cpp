@@ -147,7 +147,7 @@ int main() {
     }
 }*/
 
-/*Задача 6*/
+/*Задача 6
 
 int main() {
     int grade;
@@ -199,4 +199,47 @@ int main() {
         cout << "Nezadovilno";
         break;
     }
-}
+}*/
+
+/*Задача 7
+
+int main() {
+    int km = 10;
+    int i = 0;
+    while (km < 25) {
+        km += km * 0.10;
+        i++;
+    }
+    cout << i;
+}*/
+
+/*Задача 8
+int main() {
+    int x;
+    int y;
+    
+    cout << "Enter x: \n";
+    cin >> x;
+    int res=x;
+    cout << "Enter y: \n";
+    cin >> y;
+    for (int i=1; i < y; i++) {
+        res *= x;
+    }
+    cout << res;
+
+}*/
+
+/*Задача 9
+int main() {
+    int height;
+    cout << "Enter piramyd height: \n";
+    cin >> height;
+    for (int row = 0; row <= height; row++) {
+        for (int col = 0; col < (row * 2 - 1); col+=1) {
+            cout << "*";
+        }
+        cout << "\n";
+    }
+
+}*/
